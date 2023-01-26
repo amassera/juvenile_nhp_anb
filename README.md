@@ -39,7 +39,7 @@ rescorla_td_prediction.m - implements the Rescorla-Wagner RL rule (used by predi
 # R data analysis scripts
 plot_fit.R - generate predicted response from GLMM
 compute_cumulative_score.R - calculate the cumulative score for each subject at each time point
-data_analysis_computational_model_parameters.R - Mixed model to compare the fitted model parameters between the two rearing groups across time and plot (Figure 5 and Figure 6)
+data_analysis_computational_model_parameters.R - Mixed model to compare the fitted model parameters between the two rearing groups across time and plot       (Figure 5 and Figure 6)
 data_analysis_parameters_predicting_task_performance.R - linear mixed models for each model parameter and performance measure in the original version of the task across time
 data_analysis_task_performance.R - To compare performance on the original A-not-B task between the two rearing groups over time
 data_preprocessing_SI.R - pre-processing analyses 
