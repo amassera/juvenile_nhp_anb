@@ -11,7 +11,9 @@ The dataset contains behavioural data collected to assess executive function in 
 
 ## Description of the data and file structure
 All data is presented in csv format. 
+
 Data is organized in long format in the following files: year2.csv; year3.csv; year3_random.csv; model_predictions-run_all_behavs_best_year2; model_predictions-run_all_behavs_best_year3; model_predictions-run_all_behavs_best_year3_random
+
 Data is organized in wide format in the following files: fitted_coefficients-run_5_year2; fitted_coefficients-run_5_year3; fitted_coefficients-run_5_year3_random
 
 Matlab code was utlized to fit the computational model of decision making to the choice behaviour in A not B task for each subject at each time point. 
