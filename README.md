@@ -21,28 +21,41 @@ R code was utilized to preprocess the data, and perform statistical analyses.
 ## Code/Software:
 
 ## Top-level matlab model functions
-run_model_comparison.m - fit each model to subject behavior/
+run_model_comparison.m - fit each model to subject behavior
 
-run_models.m - fit selected model to subject behavior/
+run_models.m - fit selected model to subject behavior
 
-predict_behaviour.m - predict behavior for each subject given fitted model parameter values/ 
+predict_behaviour.m - predict behavior for each subject given fitted model parameter values
 
-compare_models.m - compare models in terms of AIC/ 
+compare_models.m - compare models in terms of AIC
 
 ## Matlab utility functions
-fit_behavior.m - fit a model for each subject (used by run_model_comparison.m, run_models.m)/
-read_subj_data.m - read and preprocess subject data (used by fit_behavior.m)/
-fit.m - fit a model to subject data (used by fit_behavior.m)/
-energy_decision.m - compute the negative log-likelihood for a subject given a set of parameter values (used by fit.m)/
-predict.m - (used by energy_decision.m, predict_behaviour.m, fit_behavior.m)/
-params_within_limits.m - check that parameter values are within limits (used by energy_decision.m and fit.m)/
-predict.m - compute response probabilities for a set of trials given model parameter values (used by predict_behaviour.m, energy_decision.m, fit_behavior.m)/
-rescorla_td_prediction.m - implements the Rescorla-Wagner RL rule (used by predict.m)/
+fit_behavior.m - fit a model for each subject (used by run_model_comparison.m, run_models.m)
+
+read_subj_data.m - read and preprocess subject data (used by fit_behavior.m)
+
+fit.m - fit a model to subject data (used by fit_behavior.m)
+
+energy_decision.m - compute the negative log-likelihood for a subject given a set of parameter values (used by fit.m)
+
+predict.m - (used by energy_decision.m, predict_behaviour.m, fit_behavior.m)
+
+params_within_limits.m - check that parameter values are within limits (used by energy_decision.m and fit.m)
+
+predict.m - compute response probabilities for a set of trials given model parameter values (used by predict_behaviour.m, energy_decision.m, fit_behavior.m)
+
+rescorla_td_prediction.m - implements the Rescorla-Wagner RL rule (used by predict.m)
+
 
 # R data analysis scripts
-plot_fit.R - generate predicted response from GLMM/
-compute_cumulative_score.R - calculate the cumulative score for each subject at each time point/ 
-data_analysis_computational_model_parameters.R - Mixed model to compare the fitted model parameters between the two rearing groups across time and plot       (Figure 5 and Figure 6)/ 
-data_analysis_parameters_predicting_task_performance.R - linear mixed models for each model parameter and performance measure in the original version of the task across time/ 
-data_analysis_task_performance.R - To compare performance on the original A-not-B task between the two rearing groups over time/ 
+plot_fit.R - generate predicted response from GLMM
+
+compute_cumulative_score.R - calculate the cumulative score for each subject at each time point
+
+data_analysis_computational_model_parameters.R - Mixed model to compare the fitted model parameters between the two rearing groups across time and plot       (Figure 5 and Figure 6)
+
+data_analysis_parameters_predicting_task_performance.R - linear mixed models for each model parameter and performance measure in the original version of the task across time
+
+data_analysis_task_performance.R - To compare performance on the original A-not-B task between the two rearing groups over time
+
 data_preprocessing_SI.R - pre-processing analyses 
