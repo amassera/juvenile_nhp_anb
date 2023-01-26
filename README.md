@@ -22,8 +22,11 @@ R code was utilized to preprocess the data, and perform statistical analyses.
 
 ## Top-level matlab model functions
 run_model_comparison.m - fit each model to subject behavior/
+
 run_models.m - fit selected model to subject behavior/
+
 predict_behaviour.m - predict behavior for each subject given fitted model parameter values/ 
+
 compare_models.m - compare models in terms of AIC/ 
 
 ## Matlab utility functions
